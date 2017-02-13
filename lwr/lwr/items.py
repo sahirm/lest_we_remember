@@ -10,16 +10,19 @@ import scrapy
 
 
 class LwrItem(scrapy.Item):
-    # define the fields for your item here like:
-    month = scrapy.Field()
-    year = scrapy.Field()
-    url = scrapy.Field()
-    day = scrapy.Field()
-    type = scrapy.Field()
-    dead = scrapy.Field()
-    injured = scrapy.Field()
-    location = scrapy.Field()
-    details = scrapy.Field()
-    perpetrator = scrapy.Field()
-    source = scrapy.Field()
+
+    Month = scrapy.Field()
+    Year = scrapy.Field()
+
+    Date = scrapy.Field()
+    Type = scrapy.Field()
+    Dead = scrapy.Field()
+    Injured = scrapy.Field()
+    Location = scrapy.Field()
+    Details = scrapy.Field()
+    Perpetrator = scrapy.Field()
+    State = scrapy.Field()
+    Nonstate = scrapy.Field()
+    Partof = scrapy.Field()
+
 
